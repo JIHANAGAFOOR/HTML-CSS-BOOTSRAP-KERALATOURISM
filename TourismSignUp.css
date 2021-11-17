@@ -1,0 +1,140 @@
+#bgsignup{
+	background:linear-gradient(to left bottom ,lightcyan,grey);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 130px;
+
+}
+
+#loginside
+{
+	background:linear-gradient(to right top ,darkblue,grey);
+	height: 500px;
+	border-radius: 20px;
+	padding: 50px;
+	color: white;
+}
+#text1{
+	color: white;
+	font-weight: bolder;
+	font-size: 10px;
+
+	
+
+}
+input{
+	border-radius: 7px;
+	background-color: lightgray;
+}
+#bt1{
+	background-color: darkblue;
+	height: 50px;
+	width: 100px;
+	padding: 10px;
+	border-radius: 30%;
+	cursor: pointer;
+	border: 2px solid grey;
+	color: white;
+}
+
+#a1{
+	color: white;
+	text-decoration: none;
+}
+#text2{
+	font-weight: bold;
+	font-family: fantasy;
+	font-size: 30px;
+}
+input{
+	border-radius: 7px;
+	background-color: lightgray;
+}
+#bt1{
+	background-color: darkblue;
+	height: 50px;
+	width: 100px;
+	padding: 10px;
+	border-radius: 30%;
+	cursor: pointer;
+	border: 2px solid grey;
+	color: white;
+}
+
+#a1{
+	color: white;
+	text-decoration: none;
+}
+#img2{
+	width: 60px;
+	height: 50px;
+}
+#text1{
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+
+}
+
+#nav{
+	
+	height: 70px;
+	background-color: darkblue;
+	padding: 10px;  
+
+}
+li:hover{
+  background-color:yellow;
+  font-weight: bold;
+}
+#button2{
+  padding: 0px;
+  width: 100px;
+  height: 40px;
+  box-shadow: none;
+  cursor: pointer;
+ border-radius: 10px;
+ border: 2px solid black;
+
+}
+#footer{
+  background-color: lightblue;
+  padding: 20px;
+}
+#list1{
+  list-style-type: none;
+}
+#button2:hover{
+  background-color: yellow;
+}
+#border{
+	height: 50px;
+	background-color: darkblue;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+}
+#text4{
+	text-align: justify;
+}
+#text4::first-letter {
+  font-size: 200%;
+  color: black;
+}
+#text5{
+	text-align:justify;
+}
+#connect{
+  color: darkblue;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+#img1{
+	width: 500px;
+	height: 400px;
+}
+.active, #button2:hover {
+  background-color: yellow;
+  color: black;
+}

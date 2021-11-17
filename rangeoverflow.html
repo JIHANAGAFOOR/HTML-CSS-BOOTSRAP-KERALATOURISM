@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Range Overflow</title>
+</head>
+<body>
+<h2>Range Overflow</h2>
+<input type="number" id="number1" max="100" min="10" placeholder="Enter a number" style="width:200px"><br><br>
+<input type="button" name="bt1" onclick="demo()" value="check ">
+<p id="msg"></p>
+<script type="text/javascript">
+	var text;
+	function demo()
+	{
+		if(document.getElementById("number1").validity.rangeOverflow)
+		{
+			text="Number is too large";
+		}
+		 else if(document.getElementById("number1").value=="")
+		{
+			text="No number entered";
+		}
+		else
+		{
+			text=" Input is ok";
+			
+		}
+		document.getElementById("msg").innerHTML=text;
+
+	}
+</script>
+</body>
+</html>
